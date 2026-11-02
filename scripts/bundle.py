@@ -86,6 +86,19 @@ def main():
     targets = [s for s, r in results.items()
                if r.get("status") == "failed" and "unmapped" in str(r.get("reason", ""))]
     print("bundle targets:", targets)
+    # Backfill grid_days for bundle calendars fixed in earlier runs
+    # (they are status=ok already, so they are not targets anymore).
+    _dirty = False
+    for _slug, _rec in results.items():
+        if _rec.get("grid_days") is None and _rec.get("status") == "ok":
+            _gf = ROOT / "grids" / f"{_slug}.json"
+            if _gf.exists():
+                _rec["grid_days"] = len(json.loads(_gf.read_text(encoding="utf-8")))
+                _dirty = True
+    if _dirty:
+        _t = ROOT / "results.json.tmp"
+        _t.write_text(json.dumps(results, ensure_ascii=False, indent=1), encoding="utf-8")
+        _t.replace(ROOT / "results.json")
     for slug in targets:
         rec = results[slug]
         fname = rec["pdf"]
@@ -109,8 +122,9 @@ def main():
                              f"hits={marker_hits} unmapped={unmapped[:3]}")
             print(f"[failed] {slug} {rec['reason']}", flush=True)
             results[slug] = rec
-            (ROOT / "results.json").write_text(
-                json.dumps(results, ensure_ascii=False, indent=1), encoding="utf-8")
+            _t = ROOT / "results.json.tmp"
+            _t.write_text(json.dumps(results, ensure_ascii=False, indent=1), encoding="utf-8")
+            _t.replace(ROOT / "results.json")
             continue
         ics_text, expanded = build_bundle_ics(slug, title or slug, grid, bundles)
         from pipeline import verify
@@ -128,10 +142,12 @@ def main():
                            ensure_ascii=False, indent=1), encoding="utf-8")
             rec["status"] = "ok"
             rec["reason"] = ""
+            rec["grid_days"] = len(expanded)
             print(f"[ok] {slug} bundles={bundles}", flush=True)
         results[slug] = rec
-        (ROOT / "results.json").write_text(json.dumps(results, ensure_ascii=False, indent=1),
-                                           encoding="utf-8")
+        _t = ROOT / "results.json.tmp"
+        _t.write_text(json.dumps(results, ensure_ascii=False, indent=1), encoding="utf-8")
+        _t.replace(ROOT / "results.json")
     ok = sum(1 for r in results.values() if r["status"] == "ok")
     print(f"DONE ok={ok} total={len(results)}")
 

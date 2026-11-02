@@ -369,12 +369,13 @@
     "びん類"
    ]
   },
-  "mismatch_count": 0,
-  "mismatches": [],
   "marker_hits": {
    "第4火": 12,
    "第2火": 12
-  }
+  },
+  "mismatch_count": 0,
+  "mismatches": [],
+  "grid_days": 365
  },
  "habu": {
   "slug": "habu",
@@ -944,12 +945,13 @@
     "びん類"
    ]
   },
-  "mismatch_count": 0,
-  "mismatches": [],
   "marker_hits": {
    "第3火": 12,
    "第1火": 12
-  }
+  },
+  "mismatch_count": 0,
+  "mismatches": [],
+  "grid_days": 365
  },
  "kume": {
   "slug": "kume",
@@ -1388,12 +1390,13 @@
     "びん類"
    ]
   },
-  "mismatch_count": 0,
-  "mismatches": [],
   "marker_hits": {
    "第1木": 12,
    "第3月": 12
-  }
+  },
+  "mismatch_count": 0,
+  "mismatches": [],
+  "grid_days": 365
  },
  "nagashi_miyano_kounoura": {
   "slug": "nagashi_miyano_kounoura",
@@ -1428,12 +1431,13 @@
     "びん類"
    ]
   },
-  "mismatch_count": 0,
-  "mismatches": [],
   "marker_hits": {
    "第4水": 12,
    "第2土": 12
-  }
+  },
+  "mismatch_count": 0,
+  "mismatches": [],
+  "grid_days": 365
  },
  "nakajimaoura": {
   "slug": "nakajimaoura",
@@ -1466,12 +1470,13 @@
     "びん類"
    ]
   },
-  "mismatch_count": 0,
-  "mismatches": [],
   "marker_hits": {
    "第1水": 12,
    "第3土": 12
-  }
+  },
+  "mismatch_count": 0,
+  "mismatches": [],
+  "grid_days": 365
  },
  "nogutsuna": {
   "slug": "nogutsuna",
@@ -1504,12 +1509,13 @@
     "びん類"
    ]
   },
-  "mismatch_count": 0,
-  "mismatches": [],
   "marker_hits": {
    "第3木": 12,
    "第1月": 12
-  }
+  },
+  "mismatch_count": 0,
+  "mismatches": [],
+  "grid_days": 365
  },
  "obama": {
   "slug": "obama",
@@ -1542,12 +1548,13 @@
     "びん類"
    ]
   },
-  "mismatch_count": 0,
-  "mismatches": [],
   "marker_hits": {
    "第3水": 12,
    "第1土": 12
-  }
+  },
+  "mismatch_count": 0,
+  "mismatches": [],
+  "grid_days": 365
  },
  "ono": {
   "slug": "ono",
@@ -2049,12 +2056,13 @@
     "びん類"
    ]
   },
-  "mismatch_count": 0,
-  "mismatches": [],
   "marker_hits": {
    "第2木": 12,
    "第4木": 12
-  }
+  },
+  "mismatch_count": 0,
+  "mismatches": [],
+  "grid_days": 365
  },
  "ukena": {
   "slug": "ukena",
@@ -2156,12 +2164,13 @@
     "びん類"
    ]
   },
-  "mismatch_count": 0,
-  "mismatches": [],
   "marker_hits": {
    "第2水": 12,
    "第4土": 12
-  }
+  },
+  "mismatch_count": 0,
+  "mismatches": [],
+  "grid_days": 365
  },
  "wake": {
   "slug": "wake",
@@ -2400,12 +2409,13 @@
     "びん類"
    ]
   },
-  "mismatch_count": 0,
-  "mismatches": [],
   "marker_hits": {
    "第2水": 12,
    "第4土": 12
-  }
+  },
+  "mismatch_count": 0,
+  "mismatches": [],
+  "grid_days": 365
  },
  "yugun": {
   "slug": "yugun",

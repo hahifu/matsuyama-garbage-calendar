@@ -18,10 +18,14 @@ import urllib.request
 from datetime import date, timedelta
 from pathlib import Path
 
+import os
 ROOT = Path(__file__).resolve().parent.parent
 BASE = "https://www.city.matsuyama.ehime.jp/kurashi/gomi/dashikata/gomicalender/"
-INDEX_HTML = ROOT.parent / "garbage-shimizu" / "districts.html"
-FY_START, FY_END = date(2026, 4, 1), date(2027, 3, 31)
+INDEX_URL = os.environ.get("GARBAGE_INDEX_URL", BASE + "r8gomicaletikubetu.html")
+INDEX_HTML = ROOT / "index_cache.html"
+FY_START = date.fromisoformat(os.environ.get("GARBAGE_FY_START", "2026-04-01"))
+FY_END = date.fromisoformat(os.environ.get("GARBAGE_FY_END", "2027-03-31"))
+UNTIL_STR = FY_END.strftime("%Y%m%d")
 FY_DAYS = []
 _d = FY_START
 while _d <= FY_END:
@@ -33,7 +37,24 @@ CATEGORIES = ["可燃ごみ", "プラスチック製容器包装", "ペットボ
 WD2 = ["MO", "TU", "WE", "TH", "FR", "SA", "SU"]
 
 
+
+def save_results(results, prev=None):
+    if prev:
+        for k, v in prev.items():
+            results.setdefault(k, v)
+    tmp = ROOT / "results.json.tmp"
+    tmp.write_text(json.dumps(results, ensure_ascii=False, indent=1), encoding="utf-8")
+    tmp.replace(ROOT / "results.json")
+
 def district_map():
+    try:
+        req = urllib.request.Request(INDEX_URL, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=60) as r:
+            INDEX_HTML.write_bytes(r.read())
+    except Exception:
+        if not INDEX_HTML.exists():
+            legacy = ROOT.parent / "garbage-shimizu" / "districts.html"
+            INDEX_HTML.write_bytes(legacy.read_bytes())
     html = INDEX_HTML.read_text(encoding="utf-8")
     out = {}
     for rel, name in re.findall(r'href="([^"]+\.pdf)"[^>]*>([^<]*地区)', html):
@@ -70,9 +91,15 @@ def cats(txt):
     return out
 
 
-FIXED_HEADERS = [(48, 124, 2026, 4), (276, 124, 2026, 5), (514, 124, 2026, 6), (752, 124, 2026, 7),
-                 (37, 363, 2026, 8), (276, 363, 2026, 9), (505, 363, 2026, 10), (744, 363, 2026, 11),
-                 (28, 603, 2026, 12), (287, 603, 2027, 1), (514, 603, 2027, 2), (752, 603, 2027, 3)]
+def _fixed_headers():
+    sy = FY_START.year
+    pos = [(48, 124), (276, 124), (514, 124), (752, 124), (37, 363), (276, 363),
+           (505, 363), (744, 363), (28, 603), (287, 603), (514, 603), (752, 603)]
+    months = [(sy, m) for m in range(4, 13)] + [(sy + 1, m) for m in range(1, 4)]
+    return [(x, y, yr, mo) for (x, y), (yr, mo) in zip(pos, months)]
+
+
+FIXED_HEADERS = _fixed_headers()
 
 
 def detect_headers(words):
@@ -82,8 +109,8 @@ def detect_headers(words):
         rows.setdefault(round(w["top"] / 100), []).append(w)
     if len(rows) != 3:
         return None
-    order = [(2026, 4), (2026, 5), (2026, 6), (2026, 7), (2026, 8), (2026, 9), (2026, 10),
-             (2026, 11), (2026, 12), (2027, 1), (2027, 2), (2027, 3)]
+    sy = FY_START.year
+    order = [(sy, m) for m in range(4, 13)] + [(sy + 1, m) for m in range(1, 4)]
     out = []
     for i, key in enumerate(sorted(rows)):
         ws = sorted(rows[key], key=lambda w: w["x0"])
@@ -217,14 +244,14 @@ def build_ics(slug, title, grid):
             continue
         start = min(pl["expected"])
         if mode == "weekly":
-            rrule = "FREQ=WEEKLY;BYDAY=" + ",".join(WD2[w] for w in pl["weekdays"]) + ";UNTIL=20270331"
+            rrule = "FREQ=WEEKLY;BYDAY=" + ",".join(WD2[w] for w in pl["weekdays"]) + ";UNTIL=" + UNTIL_STR
         elif mode == "monthly":
             parts = []
             for n in pl["nth"]:
                 parts.append(f"{n}{WD2[pl['weekday']]}" if n > 0 else f"-1{WD2[pl['weekday']]}")
-            rrule = "FREQ=MONTHLY;BYDAY=" + ",".join(parts) + ";UNTIL=20270331"
+            rrule = "FREQ=MONTHLY;BYDAY=" + ",".join(parts) + ";UNTIL=" + UNTIL_STR
         else:
-            rrule = f"FREQ=WEEKLY;INTERVAL=2;BYDAY={WD2[pl['weekday']]};UNTIL=20270331"
+            rrule = f"FREQ=WEEKLY;INTERVAL=2;BYDAY={WD2[pl['weekday']]};UNTIL={UNTIL_STR}"
         ev = ["BEGIN:VEVENT", f"UID:{uid}@matsuyama-garbage",
               f"DTSTART;VALUE=DATE:{start:%Y%m%d}", f"DTEND;VALUE=DATE:{start + timedelta(days=1):%Y%m%d}",
               f"RRULE:{rrule}"]
@@ -304,7 +331,7 @@ def main():
                 rec["reason"] = "unmapped cell labels: " + str(Counter(unmapped).most_common(5))
                 results[slug] = rec
                 print(f"[failed] {slug} ({'/'.join(districts)}) {rec['reason']}", flush=True)
-                rpath.write_text(json.dumps(results, ensure_ascii=False, indent=1), encoding="utf-8")
+                save_results(results, prev)
                 continue
             missing_days = [d.isoformat() for d in FY_DAYS if d not in grid]
             rec["grid_days"] = len(grid)
@@ -332,7 +359,7 @@ def main():
             rec["reason"] = f"{type(e).__name__}: {e}"
         results[slug] = rec
         print(f"[{rec['status']}] {slug} ({'/'.join(districts)}) {rec.get('reason', '')}", flush=True)
-        rpath.write_text(json.dumps(results, ensure_ascii=False, indent=1), encoding="utf-8")
+        save_results(results, prev)
     ok = sum(1 for r in results.values() if r["status"] == "ok")
     print(f"DONE ok={ok} total={len(results)}")
 
