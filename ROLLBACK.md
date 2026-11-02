@@ -20,3 +20,12 @@
 - 改訂版PDFで再生成し、TEST_RECORD.md の検証をすべて通してから同じパスへ差し替える
   （購読URLは変わらない）。差し替え前の版はGitの履歴に残るので、戻す場合は
   該当コミットへ revert する。
+
+## 四半期自動更新を止める場合
+対象: cron ジョブ「garbage-calendar-quarterly-update」と Deploy Key「Muse quarterly updater」
+手順:
+1. cron ジョブを削除（または無効化）する。以後の自動実行は止まる。
+2. GitHub のリポジトリ Settings → Deploy keys で「Muse quarterly updater」を削除する。
+   これで VM からこのリポジトリへ push できなくなる。
+3. VM 側の鍵ファイル publish/garbage_calendar_deploy_key（秘密鍵・公開鍵）を削除する。
+4. ローカルの作業コピー publish/live-repo は削除してよい（リポジトリ本体には影響しない）。
