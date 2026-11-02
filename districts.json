@@ -1,0 +1,292 @@
+{
+ "新玉地区": {
+  "file": "ics/aratama.ics",
+  "calendar": "新玉地区",
+  "status": "ok"
+ },
+ "浅海地区": {
+  "file": "ics/asanami_namba_masaoka.ics",
+  "calendar": "浅海・難波・正岡地区",
+  "status": "ok"
+ },
+ "難波地区": {
+  "file": "ics/asanami_namba_masaoka.ics",
+  "calendar": "浅海・難波・正岡地区",
+  "status": "ok"
+ },
+ "正岡地区": {
+  "file": "ics/asanami_namba_masaoka.ics",
+  "calendar": "浅海・難波・正岡地区",
+  "status": "ok"
+ },
+ "粟井地区": {
+  "file": "ics/awai_kono.ics",
+  "calendar": "粟井・河野地区",
+  "status": "ok"
+ },
+ "河野地区": {
+  "file": "ics/awai_kono.ics",
+  "calendar": "粟井・河野地区",
+  "status": "ok"
+ },
+ "番町地区": {
+  "file": "ics/bancho.ics",
+  "calendar": "番町地区",
+  "status": "ok"
+ },
+ "道後地区": {
+  "file": "ics/dogo_yuzuki.ics",
+  "calendar": "道後・湯築地区",
+  "status": "ok"
+ },
+ "湯築地区": {
+  "file": "ics/dogo_yuzuki.ics",
+  "calendar": "道後・湯築地区",
+  "status": "ok"
+ },
+ "二神地区": {
+  "file": "ics/futagami.ics",
+  "calendar": "二神地区",
+  "status": "ok"
+ },
+ "垣生地区": {
+  "file": "ics/habu.ics",
+  "calendar": "垣生地区",
+  "status": "ok"
+ },
+ "久枝地区": {
+  "file": "ics/hisaeda.ics",
+  "calendar": "久枝地区",
+  "status": "ok"
+ },
+ "五明地区": {
+  "file": "ics/hiura_gomyo.ics",
+  "calendar": "日浦・五明地区",
+  "status": "ok"
+ },
+ "日浦地区": {
+  "file": "ics/hiura_gomyo.ics",
+  "calendar": "日浦・五明地区",
+  "status": "ok"
+ },
+ "立岩地区": {
+  "file": "ics/hojo_tateiwa.ics",
+  "calendar": "北条・立岩地区",
+  "status": "ok"
+ },
+ "北条地区": {
+  "file": "ics/hojo_tateiwa.ics",
+  "calendar": "北条・立岩地区",
+  "status": "ok"
+ },
+ "堀江地区": {
+  "file": "ics/horie.ics",
+  "calendar": "堀江地区",
+  "status": "ok"
+ },
+ "伊台地区": {
+  "file": "ics/idai.ics",
+  "calendar": "伊台地区",
+  "status": "ok"
+ },
+ "石井東地区": {
+  "file": "ics/ishiihigashi.ics",
+  "calendar": "石井東地区",
+  "status": "ok"
+ },
+ "石井西地区": {
+  "file": "ics/ishiinishi.ics",
+  "calendar": "石井西地区",
+  "status": "ok"
+ },
+ "上怒和地区": {
+  "file": "ics/kaminuwa_motonuwa.ics",
+  "calendar": "上怒和・元怒和地区",
+  "status": "ok"
+ },
+ "元怒和地区": {
+  "file": "ics/kaminuwa_motonuwa.ics",
+  "calendar": "上怒和・元怒和地区",
+  "status": "ok"
+ },
+ "久米地区": {
+  "file": "ics/kume.ics",
+  "calendar": "久米地区",
+  "status": "ok"
+ },
+ "久谷地区": {
+  "file": "ics/kutani.ics",
+  "calendar": "久谷地区",
+  "status": "ok"
+ },
+ "桑原地区": {
+  "file": "ics/kuwabara.ics",
+  "calendar": "桑原地区",
+  "status": "ok"
+ },
+ "味生地区": {
+  "file": "ics/mibu.ics",
+  "calendar": "味生地区",
+  "status": "ok"
+ },
+ "味酒地区": {
+  "file": "ics/misake.ics",
+  "calendar": "味酒地区",
+  "status": "ok"
+ },
+ "宮前地区": {
+  "file": "ics/miyamae.ics",
+  "calendar": "宮前地区",
+  "status": "ok"
+ },
+ "睦月地区": {
+  "file": "ics/muzuki.ics",
+  "calendar": "睦月地区",
+  "status": "ok"
+ },
+ "神浦地区": {
+  "file": "ics/nagashi_miyano_kounoura.ics",
+  "calendar": "長師・宮野・神浦地区",
+  "status": "ok"
+ },
+ "長師地区": {
+  "file": "ics/nagashi_miyano_kounoura.ics",
+  "calendar": "長師・宮野・神浦地区",
+  "status": "ok"
+ },
+ "宮野地区": {
+  "file": "ics/nagashi_miyano_kounoura.ics",
+  "calendar": "長師・宮野・神浦地区",
+  "status": "ok"
+ },
+ "中島大浦地区": {
+  "file": "ics/nakajimaoura.ics",
+  "calendar": "中島大浦地区",
+  "status": "ok"
+ },
+ "野忽那地区": {
+  "file": "ics/nogutsuna.ics",
+  "calendar": "野忽那地区",
+  "status": "ok"
+ },
+ "小浜地区": {
+  "file": "ics/obama.ics",
+  "calendar": "小浜地区",
+  "status": "ok"
+ },
+ "小野地区": {
+  "file": "ics/ono.ics",
+  "calendar": "小野地区",
+  "status": "ok"
+ },
+ "清水地区": {
+  "file": "ics/shimizu.ics",
+  "calendar": "清水地区",
+  "status": "ok"
+ },
+ "東雲地区": {
+  "file": "ics/shinonome.ics",
+  "calendar": "東雲地区",
+  "status": "ok"
+ },
+ "潮見地区": {
+  "file": "ics/shiomi.ics",
+  "calendar": "潮見地区",
+  "status": "ok"
+ },
+ "生石地区": {
+  "file": "ics/shoseki.ics",
+  "calendar": "生石地区",
+  "status": "ok"
+ },
+ "素鵞地区": {
+  "file": "ics/soga.ics",
+  "calendar": "素鵞地区",
+  "status": "ok"
+ },
+ "高浜地区": {
+  "file": "ics/takahama_mitsuhama.ics",
+  "calendar": "高浜・三津浜地区",
+  "status": "ok"
+ },
+ "三津浜地区": {
+  "file": "ics/takahama_mitsuhama.ics",
+  "calendar": "高浜・三津浜地区",
+  "status": "ok"
+ },
+ "津和地地区": {
+  "file": "ics/tsuwaji.ics",
+  "calendar": "津和地地区",
+  "status": "ok"
+ },
+ "浮穴地区": {
+  "file": "ics/ukena.ics",
+  "calendar": "浮穴地区",
+  "status": "ok"
+ },
+ "宇和間地区": {
+  "file": "ics/uwama_kumata.ics",
+  "calendar": "宇和間・熊田地区",
+  "status": "ok"
+ },
+ "熊田地区": {
+  "file": "ics/uwama_kumata.ics",
+  "calendar": "宇和間・熊田地区",
+  "status": "ok"
+ },
+ "和気地区": {
+  "file": "ics/wake.ics",
+  "calendar": "和気地区",
+  "status": "ok"
+ },
+ "八坂地区": {
+  "file": "ics/yasaka.ics",
+  "calendar": "八坂地区",
+  "status": "ok"
+ },
+ "余土地区": {
+  "file": "ics/yodo.ics",
+  "calendar": "余土地区",
+  "status": "ok"
+ },
+ "中島粟井地区": {
+  "file": "ics/yoshiki_nyo_hatari_nakajimaawai.ics",
+  "calendar": "",
+  "status": "ok"
+ },
+ "饒地区": {
+  "file": "ics/yoshiki_nyo_hatari_nakajimaawai.ics",
+  "calendar": "",
+  "status": "ok"
+ },
+ "畑里地区": {
+  "file": "ics/yoshiki_nyo_hatari_nakajimaawai.ics",
+  "calendar": "",
+  "status": "ok"
+ },
+ "吉木地区": {
+  "file": "ics/yoshiki_nyo_hatari_nakajimaawai.ics",
+  "calendar": "",
+  "status": "ok"
+ },
+ "雄郡地区": {
+  "file": "ics/yugun.ics",
+  "calendar": "雄郡地区",
+  "status": "ok"
+ },
+ "泊地区": {
+  "file": "ics/yura_tomari.ics",
+  "calendar": "由良・泊地区",
+  "status": "ok"
+ },
+ "由良地区": {
+  "file": "ics/yura_tomari.ics",
+  "calendar": "由良・泊地区",
+  "status": "ok"
+ },
+ "湯山地区": {
+  "file": "ics/yuyama.ics",
+  "calendar": "湯山地区",
+  "status": "ok"
+ }
+}

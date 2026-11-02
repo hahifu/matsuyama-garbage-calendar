@@ -1,0 +1,2612 @@
+{
+ "aratama": {
+  "slug": "aratama",
+  "pdf": "2026aratama.pdf",
+  "districts": [
+   "新玉"
+  ],
+  "title": "新玉地区",
+  "halts": [
+   "2026-10-07",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 103,
+    "exdates": [
+     "2027-01-01"
+    ],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 52,
+    "exdates": [],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 24,
+    "exdates": [],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 25,
+    "exdates": [
+     "2026-10-07"
+    ],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 27,
+    "exdates": [],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 12,
+    "exdates": [],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "asanami_namba_masaoka": {
+  "slug": "asanami_namba_masaoka",
+  "pdf": "2026asanami_namba_masaoka.pdf",
+  "districts": [
+   "浅海",
+   "難波",
+   "正岡"
+  ],
+  "title": "浅海・難波・正岡地区",
+  "halts": [
+   "2026-10-12",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 104,
+    "exdates": [
+     "2027-01-02"
+    ],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 51,
+    "exdates": [
+     "2026-10-12"
+    ],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 24,
+    "exdates": [],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 12,
+    "exdates": [],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "awai_kono": {
+  "slug": "awai_kono",
+  "pdf": "2026awai_kono.pdf",
+  "districts": [
+   "粟井",
+   "河野"
+  ],
+  "title": "粟井・河野地区",
+  "halts": [
+   "2026-10-12",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 103,
+    "exdates": [
+     "2027-01-01"
+    ],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 53,
+    "exdates": [],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 24,
+    "exdates": [],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 25,
+    "exdates": [
+     "2027-01-02"
+    ],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 12,
+    "exdates": [],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "bancho": {
+  "slug": "bancho",
+  "pdf": "2026bancho.pdf",
+  "districts": [
+   "番町"
+  ],
+  "title": "番町地区",
+  "halts": [
+   "2026-10-07",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 104,
+    "exdates": [],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 52,
+    "exdates": [
+     "2026-10-07"
+    ],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 24,
+    "exdates": [],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 25,
+    "exdates": [
+     "2027-01-01"
+    ],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 12,
+    "exdates": [],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "dogo_yuzuki": {
+  "slug": "dogo_yuzuki",
+  "pdf": "2026dogo_yuzuki.pdf",
+  "districts": [
+   "道後",
+   "湯築"
+  ],
+  "title": "道後・湯築地区",
+  "halts": [
+   "2026-10-07",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 104,
+    "exdates": [],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 52,
+    "exdates": [
+     "2026-10-07"
+    ],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 24,
+    "exdates": [],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 25,
+    "exdates": [
+     "2027-01-01"
+    ],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 12,
+    "exdates": [],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "futagami": {
+  "slug": "futagami",
+  "pdf": "2026futagami.pdf",
+  "districts": [
+   "二神"
+  ],
+  "title": "二神地区",
+  "halts": [
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "status": "ok",
+  "reason": "",
+  "bundles": {
+   "第4火": [
+    "缶類",
+    "金物・ガラス類",
+    "埋立ごみ",
+    "水銀ごみ",
+    "粗大ごみ",
+    "ペットボトル",
+    "プラスチック製容器包装"
+   ],
+   "第2火": [
+    "ペットボトル",
+    "プラスチック製容器包装",
+    "紙類",
+    "びん類"
+   ]
+  },
+  "mismatch_count": 0,
+  "mismatches": [],
+  "marker_hits": {
+   "第4火": 12,
+   "第2火": 12
+  }
+ },
+ "habu": {
+  "slug": "habu",
+  "pdf": "2026habu.pdf",
+  "districts": [
+   "垣生"
+  ],
+  "title": "垣生地区",
+  "halts": [
+   "2026-10-07",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 103,
+    "exdates": [
+     "2027-01-01"
+    ],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 52,
+    "exdates": [],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 23,
+    "exdates": [
+     "2026-10-07"
+    ],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 12,
+    "exdates": [],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "hisaeda": {
+  "slug": "hisaeda",
+  "pdf": "2026hisaeda.pdf",
+  "districts": [
+   "久枝"
+  ],
+  "title": "久枝地区",
+  "halts": [
+   "2026-10-07",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 104,
+    "exdates": [],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 51,
+    "exdates": [
+     "2027-01-02"
+    ],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 24,
+    "exdates": [],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 12,
+    "exdates": [],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "hiura_gomyo": {
+  "slug": "hiura_gomyo",
+  "pdf": "2026hiura_gomyo.pdf",
+  "districts": [
+   "五明",
+   "日浦"
+  ],
+  "title": "日浦・五明地区",
+  "halts": [
+   "2026-10-07",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 103,
+    "exdates": [
+     "2027-01-01"
+    ],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 52,
+    "exdates": [
+     "2026-10-07"
+    ],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 24,
+    "exdates": [],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 12,
+    "exdates": [],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "hojo_tateiwa": {
+  "slug": "hojo_tateiwa",
+  "pdf": "2026hojo_tateiwa.pdf",
+  "districts": [
+   "立岩",
+   "北条"
+  ],
+  "title": "北条・立岩地区",
+  "halts": [
+   "2026-10-12",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 103,
+    "exdates": [
+     "2026-10-12"
+    ],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 52,
+    "exdates": [],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 24,
+    "exdates": [],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 25,
+    "exdates": [
+     "2027-01-01"
+    ],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 12,
+    "exdates": [],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "horie": {
+  "slug": "horie",
+  "pdf": "2026horie.pdf",
+  "districts": [
+   "堀江"
+  ],
+  "title": "堀江地区",
+  "halts": [
+   "2026-10-07",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 104,
+    "exdates": [],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 52,
+    "exdates": [],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 24,
+    "exdates": [],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 25,
+    "exdates": [
+     "2027-01-01"
+    ],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 11,
+    "exdates": [
+     "2026-10-07"
+    ],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "idai": {
+  "slug": "idai",
+  "pdf": "2026idai.pdf",
+  "districts": [
+   "伊台"
+  ],
+  "title": "伊台地区",
+  "halts": [
+   "2026-10-07",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 103,
+    "exdates": [
+     "2027-01-01"
+    ],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 51,
+    "exdates": [
+     "2027-01-02"
+    ],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 24,
+    "exdates": [],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 12,
+    "exdates": [],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "ishiihigashi": {
+  "slug": "ishiihigashi",
+  "pdf": "2026ishiihigashi.pdf",
+  "districts": [
+   "石井東"
+  ],
+  "title": "石井東地区",
+  "halts": [
+   "2026-10-07",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 104,
+    "exdates": [],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 52,
+    "exdates": [],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 24,
+    "exdates": [],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 25,
+    "exdates": [
+     "2027-01-01"
+    ],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 12,
+    "exdates": [],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "ishiinishi": {
+  "slug": "ishiinishi",
+  "pdf": "2026ishiinishi.pdf",
+  "districts": [
+   "石井西"
+  ],
+  "title": "石井西地区",
+  "halts": [
+   "2026-10-07",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 103,
+    "exdates": [
+     "2027-01-01"
+    ],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 52,
+    "exdates": [],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 23,
+    "exdates": [
+     "2027-01-02"
+    ],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 11,
+    "exdates": [
+     "2026-10-07"
+    ],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "kaminuwa_motonuwa": {
+  "slug": "kaminuwa_motonuwa",
+  "pdf": "2026kaminuwa_motonuwa.pdf",
+  "districts": [
+   "上怒和",
+   "元怒和"
+  ],
+  "title": "上怒和・元怒和地区",
+  "halts": [
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "status": "ok",
+  "reason": "",
+  "bundles": {
+   "第3火": [
+    "缶類",
+    "金物・ガラス類",
+    "埋立ごみ",
+    "水銀ごみ",
+    "粗大ごみ",
+    "ペットボトル",
+    "プラスチック製容器包装"
+   ],
+   "第1火": [
+    "ペットボトル",
+    "プラスチック製容器包装",
+    "紙類",
+    "びん類"
+   ]
+  },
+  "mismatch_count": 0,
+  "mismatches": [],
+  "marker_hits": {
+   "第3火": 12,
+   "第1火": 12
+  }
+ },
+ "kume": {
+  "slug": "kume",
+  "pdf": "2026kume.pdf",
+  "districts": [
+   "久米"
+  ],
+  "title": "久米地区",
+  "halts": [
+   "2026-10-07",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 103,
+    "exdates": [
+     "2027-01-01"
+    ],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 51,
+    "exdates": [
+     "2027-01-02"
+    ],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 24,
+    "exdates": [],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 12,
+    "exdates": [],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "kutani": {
+  "slug": "kutani",
+  "pdf": "2026kutani.pdf",
+  "districts": [
+   "久谷"
+  ],
+  "title": "久谷地区",
+  "halts": [
+   "2026-10-07",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 103,
+    "exdates": [
+     "2026-10-07",
+     "2027-01-02"
+    ],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 52,
+    "exdates": [],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 24,
+    "exdates": [],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 11,
+    "exdates": [
+     "2027-01-01"
+    ],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "kuwabara": {
+  "slug": "kuwabara",
+  "pdf": "2026kuwabara.pdf",
+  "districts": [
+   "桑原"
+  ],
+  "title": "桑原地区",
+  "halts": [
+   "2026-10-07",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 104,
+    "exdates": [],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 52,
+    "exdates": [],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 23,
+    "exdates": [
+     "2027-01-01"
+    ],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 27,
+    "exdates": [],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 25,
+    "exdates": [
+     "2026-10-07"
+    ],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 12,
+    "exdates": [],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "mibu": {
+  "slug": "mibu",
+  "pdf": "2026mibu.pdf",
+  "districts": [
+   "味生"
+  ],
+  "title": "味生地区",
+  "halts": [
+   "2026-10-07",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 103,
+    "exdates": [
+     "2027-01-01"
+    ],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 52,
+    "exdates": [],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 24,
+    "exdates": [],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 27,
+    "exdates": [],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 25,
+    "exdates": [
+     "2026-10-07"
+    ],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 12,
+    "exdates": [],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "misake": {
+  "slug": "misake",
+  "pdf": "2026misake.pdf",
+  "districts": [
+   "味酒"
+  ],
+  "title": "味酒地区",
+  "halts": [
+   "2026-10-07",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 104,
+    "exdates": [],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 51,
+    "exdates": [
+     "2027-01-01"
+    ],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 23,
+    "exdates": [
+     "2027-01-02"
+    ],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 25,
+    "exdates": [
+     "2026-10-07"
+    ],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 27,
+    "exdates": [],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 12,
+    "exdates": [],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "miyamae": {
+  "slug": "miyamae",
+  "pdf": "2026miyamae.pdf",
+  "districts": [
+   "宮前"
+  ],
+  "title": "宮前地区",
+  "halts": [
+   "2026-10-07",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 103,
+    "exdates": [
+     "2026-10-07",
+     "2027-01-02"
+    ],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 51,
+    "exdates": [
+     "2027-01-01"
+    ],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 24,
+    "exdates": [],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 12,
+    "exdates": [],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "muzuki": {
+  "slug": "muzuki",
+  "pdf": "2026muzuki.pdf",
+  "districts": [
+   "睦月"
+  ],
+  "title": "睦月地区",
+  "halts": [
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "status": "ok",
+  "reason": "",
+  "bundles": {
+   "第1木": [
+    "缶類",
+    "金物・ガラス類",
+    "埋立ごみ",
+    "水銀ごみ",
+    "粗大ごみ",
+    "ペットボトル",
+    "プラスチック製容器包装"
+   ],
+   "第3月": [
+    "ペットボトル",
+    "プラスチック製容器包装",
+    "紙類",
+    "びん類"
+   ]
+  },
+  "mismatch_count": 0,
+  "mismatches": [],
+  "marker_hits": {
+   "第1木": 12,
+   "第3月": 12
+  }
+ },
+ "nagashi_miyano_kounoura": {
+  "slug": "nagashi_miyano_kounoura",
+  "pdf": "2026nagashi_miyano_kounoura.pdf",
+  "districts": [
+   "神浦",
+   "長師",
+   "宮野"
+  ],
+  "title": "長師・宮野・神浦地区",
+  "halts": [
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "status": "ok",
+  "reason": "",
+  "bundles": {
+   "第4水": [
+    "缶類",
+    "金物・ガラス類",
+    "埋立ごみ",
+    "水銀ごみ",
+    "粗大ごみ",
+    "ペットボトル",
+    "プラスチック製容器包装"
+   ],
+   "第2土": [
+    "ペットボトル",
+    "プラスチック製容器包装",
+    "紙類",
+    "びん類"
+   ]
+  },
+  "mismatch_count": 0,
+  "mismatches": [],
+  "marker_hits": {
+   "第4水": 12,
+   "第2土": 12
+  }
+ },
+ "nakajimaoura": {
+  "slug": "nakajimaoura",
+  "pdf": "2026nakajimaoura.pdf",
+  "districts": [
+   "中島大浦"
+  ],
+  "title": "中島大浦地区",
+  "halts": [
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "status": "ok",
+  "reason": "",
+  "bundles": {
+   "第1水": [
+    "缶類",
+    "金物・ガラス類",
+    "埋立ごみ",
+    "水銀ごみ",
+    "粗大ごみ",
+    "ペットボトル",
+    "プラスチック製容器包装"
+   ],
+   "第3土": [
+    "ペットボトル",
+    "プラスチック製容器包装",
+    "紙類",
+    "びん類"
+   ]
+  },
+  "mismatch_count": 0,
+  "mismatches": [],
+  "marker_hits": {
+   "第1水": 12,
+   "第3土": 12
+  }
+ },
+ "nogutsuna": {
+  "slug": "nogutsuna",
+  "pdf": "2026nogutsuna.pdf",
+  "districts": [
+   "野忽那"
+  ],
+  "title": "野忽那地区",
+  "halts": [
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "status": "ok",
+  "reason": "",
+  "bundles": {
+   "第3木": [
+    "缶類",
+    "金物・ガラス類",
+    "埋立ごみ",
+    "水銀ごみ",
+    "粗大ごみ",
+    "ペットボトル",
+    "プラスチック製容器包装"
+   ],
+   "第1月": [
+    "ペットボトル",
+    "プラスチック製容器包装",
+    "紙類",
+    "びん類"
+   ]
+  },
+  "mismatch_count": 0,
+  "mismatches": [],
+  "marker_hits": {
+   "第3木": 12,
+   "第1月": 12
+  }
+ },
+ "obama": {
+  "slug": "obama",
+  "pdf": "2026obama.pdf",
+  "districts": [
+   "小浜"
+  ],
+  "title": "小浜地区",
+  "halts": [
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "status": "ok",
+  "reason": "",
+  "bundles": {
+   "第3水": [
+    "缶類",
+    "金物・ガラス類",
+    "埋立ごみ",
+    "水銀ごみ",
+    "粗大ごみ",
+    "ペットボトル",
+    "プラスチック製容器包装"
+   ],
+   "第1土": [
+    "ペットボトル",
+    "プラスチック製容器包装",
+    "紙類",
+    "びん類"
+   ]
+  },
+  "mismatch_count": 0,
+  "mismatches": [],
+  "marker_hits": {
+   "第3水": 12,
+   "第1土": 12
+  }
+ },
+ "ono": {
+  "slug": "ono",
+  "pdf": "2026ono.pdf",
+  "districts": [
+   "小野"
+  ],
+  "title": "小野地区",
+  "halts": [
+   "2026-10-07",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 103,
+    "exdates": [
+     "2027-01-01"
+    ],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 51,
+    "exdates": [
+     "2027-01-02"
+    ],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 24,
+    "exdates": [],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 27,
+    "exdates": [],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 25,
+    "exdates": [
+     "2026-10-07"
+    ],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 12,
+    "exdates": [],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "shimizu": {
+  "slug": "shimizu",
+  "pdf": "2026shimizu.pdf",
+  "districts": [
+   "清水"
+  ],
+  "title": "清水地区",
+  "halts": [
+   "2026-10-07",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 103,
+    "exdates": [
+     "2027-01-01"
+    ],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 52,
+    "exdates": [],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 23,
+    "exdates": [
+     "2026-10-07"
+    ],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 12,
+    "exdates": [],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "shinonome": {
+  "slug": "shinonome",
+  "pdf": "2026shinonome.pdf",
+  "districts": [
+   "東雲"
+  ],
+  "title": "東雲地区",
+  "halts": [
+   "2026-10-07",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 104,
+    "exdates": [],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 52,
+    "exdates": [
+     "2026-10-07"
+    ],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 24,
+    "exdates": [],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 25,
+    "exdates": [
+     "2027-01-01"
+    ],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 12,
+    "exdates": [],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "shiomi": {
+  "slug": "shiomi",
+  "pdf": "2026shiomi.pdf",
+  "districts": [
+   "潮見"
+  ],
+  "title": "潮見地区",
+  "halts": [
+   "2026-10-07",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 103,
+    "exdates": [
+     "2027-01-01"
+    ],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 51,
+    "exdates": [
+     "2027-01-02"
+    ],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 24,
+    "exdates": [],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 12,
+    "exdates": [],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "shoseki": {
+  "slug": "shoseki",
+  "pdf": "2026shoseki.pdf",
+  "districts": [
+   "生石"
+  ],
+  "title": "生石地区",
+  "halts": [
+   "2026-10-07",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 104,
+    "exdates": [],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 52,
+    "exdates": [
+     "2026-10-07"
+    ],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 24,
+    "exdates": [],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 12,
+    "exdates": [],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "soga": {
+  "slug": "soga",
+  "pdf": "2026soga.pdf",
+  "districts": [
+   "素鵞"
+  ],
+  "title": "素鵞地区",
+  "halts": [
+   "2026-10-07",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 103,
+    "exdates": [
+     "2027-01-01"
+    ],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 52,
+    "exdates": [],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 24,
+    "exdates": [],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 25,
+    "exdates": [
+     "2026-10-07"
+    ],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 27,
+    "exdates": [],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 12,
+    "exdates": [],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "takahama_mitsuhama": {
+  "slug": "takahama_mitsuhama",
+  "pdf": "2026takahama_mitsuhama.pdf",
+  "districts": [
+   "高浜",
+   "三津浜"
+  ],
+  "title": "高浜・三津浜地区",
+  "halts": [
+   "2026-10-07",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 103,
+    "exdates": [
+     "2026-10-07",
+     "2027-01-02"
+    ],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 52,
+    "exdates": [],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 24,
+    "exdates": [],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 12,
+    "exdates": [],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "tsuwaji": {
+  "slug": "tsuwaji",
+  "pdf": "2026tsuwaji.pdf",
+  "districts": [
+   "津和地"
+  ],
+  "title": "津和地地区",
+  "halts": [
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "status": "ok",
+  "reason": "",
+  "bundles": {
+   "第2木": [
+    "缶類",
+    "金物・ガラス類",
+    "埋立ごみ",
+    "水銀ごみ",
+    "粗大ごみ",
+    "ペットボトル",
+    "プラスチック製容器包装"
+   ],
+   "第4木": [
+    "ペットボトル",
+    "プラスチック製容器包装",
+    "紙類",
+    "びん類"
+   ]
+  },
+  "mismatch_count": 0,
+  "mismatches": [],
+  "marker_hits": {
+   "第2木": 12,
+   "第4木": 12
+  }
+ },
+ "ukena": {
+  "slug": "ukena",
+  "pdf": "2026ukena.pdf",
+  "districts": [
+   "浮穴"
+  ],
+  "title": "浮穴地区",
+  "halts": [
+   "2026-10-07",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 103,
+    "exdates": [
+     "2026-10-07",
+     "2027-01-02"
+    ],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 52,
+    "exdates": [],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 24,
+    "exdates": [],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 25,
+    "exdates": [
+     "2027-01-01"
+    ],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 12,
+    "exdates": [],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "uwama_kumata": {
+  "slug": "uwama_kumata",
+  "pdf": "2026uwama_kumata.pdf",
+  "districts": [
+   "宇和間",
+   "熊田"
+  ],
+  "title": "宇和間・熊田地区",
+  "halts": [
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "status": "ok",
+  "reason": "",
+  "bundles": {
+   "第2水": [
+    "缶類",
+    "金物・ガラス類",
+    "埋立ごみ",
+    "水銀ごみ",
+    "粗大ごみ",
+    "ペットボトル",
+    "プラスチック製容器包装"
+   ],
+   "第4土": [
+    "ペットボトル",
+    "プラスチック製容器包装",
+    "紙類",
+    "びん類"
+   ]
+  },
+  "mismatch_count": 0,
+  "mismatches": [],
+  "marker_hits": {
+   "第2水": 12,
+   "第4土": 12
+  }
+ },
+ "wake": {
+  "slug": "wake",
+  "pdf": "2026wake.pdf",
+  "districts": [
+   "和気"
+  ],
+  "title": "和気地区",
+  "halts": [
+   "2026-10-07",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 103,
+    "exdates": [
+     "2026-10-07",
+     "2027-01-02"
+    ],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 52,
+    "exdates": [],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 23,
+    "exdates": [
+     "2027-01-01"
+    ],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 12,
+    "exdates": [],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "yasaka": {
+  "slug": "yasaka",
+  "pdf": "2026yasaka.pdf",
+  "districts": [
+   "八坂"
+  ],
+  "title": "八坂地区",
+  "halts": [
+   "2026-10-07",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 103,
+    "exdates": [
+     "2027-01-01"
+    ],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 52,
+    "exdates": [
+     "2026-10-07"
+    ],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 24,
+    "exdates": [],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 12,
+    "exdates": [],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "yodo": {
+  "slug": "yodo",
+  "pdf": "2026yodo.pdf",
+  "districts": [
+   "余土"
+  ],
+  "title": "余土地区",
+  "halts": [
+   "2026-10-07",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 103,
+    "exdates": [
+     "2026-10-07",
+     "2027-01-02"
+    ],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 51,
+    "exdates": [
+     "2027-01-01"
+    ],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 24,
+    "exdates": [],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 12,
+    "exdates": [],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "yoshiki_nyo_hatari_nakajimaawai": {
+  "slug": "yoshiki_nyo_hatari_nakajimaawai",
+  "pdf": "2026yoshiki_nyo_hatari_nakajimaawai.pdf",
+  "districts": [
+   "中島粟井",
+   "饒",
+   "畑里",
+   "吉木"
+  ],
+  "title": "",
+  "halts": [
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "status": "ok",
+  "reason": "",
+  "bundles": {
+   "第2水": [
+    "缶類",
+    "金物・ガラス類",
+    "埋立ごみ",
+    "水銀ごみ",
+    "粗大ごみ",
+    "ペットボトル",
+    "プラスチック製容器包装"
+   ],
+   "第4土": [
+    "ペットボトル",
+    "プラスチック製容器包装",
+    "紙類",
+    "びん類"
+   ]
+  },
+  "mismatch_count": 0,
+  "mismatches": [],
+  "marker_hits": {
+   "第2水": 12,
+   "第4土": 12
+  }
+ },
+ "yugun": {
+  "slug": "yugun",
+  "pdf": "2026yugun.pdf",
+  "districts": [
+   "雄郡"
+  ],
+  "title": "雄郡地区",
+  "halts": [
+   "2026-10-07",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 104,
+    "exdates": [],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 51,
+    "exdates": [
+     "2027-01-01"
+    ],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 24,
+    "exdates": [],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 12,
+    "exdates": [],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "yura_tomari": {
+  "slug": "yura_tomari",
+  "pdf": "2026yura_tomari.pdf",
+  "districts": [
+   "泊",
+   "由良"
+  ],
+  "title": "由良・泊地区",
+  "halts": [
+   "2026-10-07",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 103,
+    "exdates": [
+     "2027-01-01"
+    ],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 51,
+    "exdates": [
+     "2027-01-02"
+    ],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 24,
+    "exdates": [],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 27,
+    "exdates": [],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 25,
+    "exdates": [
+     "2026-10-07"
+    ],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 12,
+    "exdates": [],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ },
+ "yuyama": {
+  "slug": "yuyama",
+  "pdf": "2026yuyama.pdf",
+  "districts": [
+   "湯山"
+  ],
+  "title": "湯山地区",
+  "halts": [
+   "2026-10-07",
+   "2027-01-01",
+   "2027-01-02",
+   "2027-01-03"
+  ],
+  "grid_days": 365,
+  "missing_days": [],
+  "rules": {
+   "可燃ごみ": {
+    "mode": "weekly",
+    "count": 104,
+    "exdates": [],
+    "extras": []
+   },
+   "プラスチック製容器包装": {
+    "mode": "weekly",
+    "count": 52,
+    "exdates": [
+     "2026-10-07"
+    ],
+    "extras": []
+   },
+   "ペットボトル": {
+    "mode": "monthly",
+    "count": 23,
+    "exdates": [
+     "2027-01-01"
+    ],
+    "extras": []
+   },
+   "紙類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "金物・ガラス類": {
+    "mode": "biweekly",
+    "count": 26,
+    "exdates": [],
+    "extras": []
+   },
+   "埋立ごみ": {
+    "mode": "monthly",
+    "count": 12,
+    "exdates": [],
+    "extras": []
+   },
+   "水銀ごみ": {
+    "mode": "singles",
+    "count": 4,
+    "exdates": [],
+    "extras": []
+   }
+  },
+  "mismatches": [],
+  "mismatch_count": 0,
+  "status": "ok"
+ }
+}
